@@ -4,24 +4,31 @@
     <meta charset="utf-8">
     <title>Snake</title>
     <link rel="shortcut icon" href="img/snake.png" type="image/png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <h2>SNAKE GAME</h2>
-    <input type="button" value="New Game" onclick="window.location.reload()" class="button">
-    <br>
-    <div>
-      <p class="rules">How to Play:
-        <br><br>
-        W-up <br>
-        A-left | S-down | D-right <br><br>SPACE-pause<br>
-      </p>
-
-      <div class="board">
-        <script type="text/javascript" src="js/custom.js"></script>
-      </div>
+    <div class="row container-fluid">
+      <h2>SNAKE GAME</h2>
+      <input type="button" value="New Game" onclick="window.location.reload()" class="button">
       <br>
-      <span id="score" class="score">SCORE</span>
     </div>
+    <div class="row container-fluid">
+      <div class="col-md-3 col-sm-12">
+        <p class="rules">How to Play:
+          <br><br>
+          W-up <br>
+          A-left | S-down | D-right <br><br>SPACE-pause<br>
+        </p>
+      </div>
+
+      <div class="board col-md-6 co-sm-12">
+          <script type="text/javascript" src="js/custom.js"></script>
+      </div>
+      <div class="col-md-3 col-sm-12">
+        <span id="score" class="score">SCORE</span>
+      </div>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 </html>
