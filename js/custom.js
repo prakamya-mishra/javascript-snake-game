@@ -22,7 +22,7 @@ var score =0;
 */
 function run(){
   init();
-  int = setInterval(gameLoop, interval)
+  int = setInterval(gameLoop, interval);
 }
 
 function init(){
@@ -153,5 +153,4 @@ function updatetail() {
   tailx[0] = snakex;
   taily[0] = snakey;
 }
-
 run();
