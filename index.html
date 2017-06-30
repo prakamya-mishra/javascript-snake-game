@@ -8,10 +8,20 @@
   </head>
   <body>
     <h2>SNAKE GAME</h2>
-    <div class="main">
-      <p>RULES: W-up ,A-left ,S-down ,D-right ,SPACE-pause ,Ctr+R-reload</p>
-      <script type="text/javascript" src="js/custom.js"></script>
-      <h1 id="score">SCORE</h1>
+    <input type="button" value="New Game" onclick="window.location.reload()" class="button">
+    <br>
+    <div>
+      <p class="rules">How to Play:
+        <br><br>
+        W-up <br>
+        A-left | S-down | D-right <br><br>SPACE-pause<br>
+      </p>
+
+      <div class="board">
+        <script type="text/javascript" src="js/custom.js"></script>
+      </div>
+      <br>
+      <span id="score" class="score">SCORE</span>
     </div>
   </body>
 </html>

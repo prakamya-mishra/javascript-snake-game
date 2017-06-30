@@ -39,7 +39,30 @@ h1,p{
   color: black;
   text-align: center;
 }
-.main{
+.rules{
   position: absolute;
-  left: 450px;
+    float: left;
+    padding-left: 60px;
+}
+.board{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.score{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.button{
+    margin: auto;
+    display: block;
+    font-size: 20px;
+    padding: 2px 2px 2px 2px;
+    background-color: gold;
+    border-radius: 5px;
+    border-color: gold;
 }
