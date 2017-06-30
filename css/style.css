@@ -51,13 +51,13 @@ h1,p{
     justify-content: center;
 }
 .score{
-    position: absolute;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    top: 50%;
-    right: 50%;
+    padding: 0;
+    top: 150px;
 }
 .button{
     margin: auto;
