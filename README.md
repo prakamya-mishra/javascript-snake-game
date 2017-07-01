@@ -9,7 +9,7 @@
 ### Contribution
 
 - The repository is open to contribution from all interested developers(mainly beginners).
-- You may go through [CONTRIBUTING.md]() to see what you can contribute to.
+- You may go through [CONTRIBUTING.md](/CONTRIBUTING.md ) to see what you can contribute to.
 - Also, you can write by opening an Issue and also solve a current issue if possible [here](https://github.com/prakamya-mishra/javascript-snake-game/issues).
 - Fork this project to your Github acoount.
 - After forking clone the repository and work on it.
