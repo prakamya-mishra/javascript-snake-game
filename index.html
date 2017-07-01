@@ -6,27 +6,19 @@
     <link rel="shortcut icon" href="img/snake.png" type="image/png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      h2{color:white;font-size: 4em;font-weight: bold;font-family: sans-serif;}
+      a{margin: 30px;position: relative;top: 200px;}
+    </style>
   </head>
   <body>
-    <div class="row container-fluid">
-      <h2>SNAKE GAME</h2>
-      <input type="button" value="New Game" onclick="window.location.reload()" class="button">
-      <br>
-    </div>
-    <div class="row container-fluid">
-      <div class="col-md-3 col-sm-12">
-        <p class="rules">How to Play:
-          <br><br>
-          W-up <br>
-          A-left | S-down | D-right <br><br>SPACE-pause<br>
-        </p>
-      </div>
-
-      <div class="board col-md-6 co-sm-12">
-          <script type="text/javascript" src="js/custom.js"></script>
-      </div>
-      <div class="col-md-3 col-sm-12">
-        <span id="score" class="score">SCORE : 0</span>
+    <div class="snake-bg">
+      <div class="row container text-center">
+        <h2>SNAKE GAME</h2>
+        <a href="level1.html"><input type="button" value="Level 1" class="btn btn-lg btn-warning"></a>
+        <a href="level2.html"><input type="button" value="Level 2" class="btn btn-lg btn-warning"></a>
+        <a href="level3.html"><input type="button" value="Level 3" class="btn btn-lg btn-warning"></a>
+        <br>
       </div>
     </div>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

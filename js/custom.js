@@ -3,7 +3,6 @@ var snakex = 2;
 var snakey =2;
 var height =30;
 var width = 30;
-var interval = 200;
 var increment =4;
 
 //game variables

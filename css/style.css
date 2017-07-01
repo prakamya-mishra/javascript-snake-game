@@ -59,12 +59,14 @@ h1,p{
     padding: 0;
     top: 150px;
 }
-.button{
-    margin: auto;
-    display: block;
-    font-size: 20px;
-    padding: 2px 2px 2px 2px;
-    background-color: gold;
-    border-radius: 5px;
-    border-color: gold;
+.snake-bg{
+  background: url("../img/snake-minimalist-art-funny-green-background-hd-wallpaper.jpg") ;
+  width: 100%;
+  height: 661px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+#new-game{
+  margin: 10px
 }
