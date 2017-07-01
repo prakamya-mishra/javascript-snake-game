@@ -1,7 +1,8 @@
 # Games: Snake
 - The game has been written in Javascript Language using the DOM manipulation and event-handling.
 - The game can be played using ```WASD``` keys where W-Up, A-left, S-Down, D-Right.
-- You can also pause the game using the SpaceBar key from your KeyBoard or start a NewGame on pressing the ```NewGame``` button on the screen.
+- The game is categorized into three different levels on the basis of the speed.
+- You can also pause the game using the SpaceBar key from your KeyBoard or start a NewGame on pressing the ```NewGame``` button or go back to choose a different level by pressing the ```Back``` button on the screen.
 - 4 points will be added to the Score-Board on eating each food.
 
 - You may try out the game once [here](https://prakamya-mishra.github.io/javascript-snake-game/)
